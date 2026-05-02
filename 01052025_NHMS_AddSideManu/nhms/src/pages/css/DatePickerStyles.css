@@ -1,0 +1,18 @@
+/* Fix header background */
+.react-datepicker__header {
+  background-color: #f8f9fa !important; /* light gray */
+  border-bottom: 1px solid #ccc;
+}
+
+/* Selected day style */
+.react-datepicker__day--selected {
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+/* Navigation arrows */
+.react-datepicker__navigation {
+  top: 10px;
+  line-height: 1.7rem;
+  border-color: #007bff;
+}
